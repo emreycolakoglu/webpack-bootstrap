@@ -10,7 +10,7 @@ const CopyPlugin = require("copy-webpack-plugin");
 const htmlProdPlugin = new HtmlWebPackPlugin({
   template: "./src/index.html",
   filename: "./index.html",
-  favicon: "./src/assets/images/favicon.png",
+  favicon: "./src/assets/images/favicon.ico",
   minify: {
     removeComments: true,
     collapseWhitespace: true,

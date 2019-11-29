@@ -5,8 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --inline --hot --env dev",
-    "build:prod": "yarn downloadTranslations && webpack --env prod",
-    "build:dev": "yarn downloadTranslations && webpack --env dev"
+    "build:prod": "webpack --env prod",
+    "build:dev": "webpack --env dev"
   },
   "dependencies": {
     "@babel/core": "^7.6.4",
